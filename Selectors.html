@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* Element Selectors */
+        h1{
+            color: blue;
+            text-align: center;
+        }
+        /* Universal Selectors */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Class & Id Selectors */
+        .box{
+            color: white;
+            background-color: green;
+        }
+        #boxx{
+            background-color: black;
+        }
+        .cont{
+            color: white;
+            background-color: blue;
+        }
+        /* Group Selectors */
+        .box,.cont,#boxx{
+            background-color: orange;
+        }
+        /* Decendent Selectors */
+        #first p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the heading</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, laudantium enim cupiditate voluptas odit beatae sapiente temporibus voluptates adipisci rem necessitatibus, nostrum sequi! Id corrupti recusandae praesentium, quo maiores incidunt.
+    Optio adipisci accusantium, nihil consequuntur, eveniet similique autem sit, necessitatibus velit ipsum fuga sequi impedit minima odit enim aperiam? Ullam ex dolore magnam delectus voluptatem, cum ad! Consectetur, perspiciatis tempora.</p>
+    <div id="boxx" class="box">I am  Dhruv Panchal</div>
+    <div class="box">I am  Dhruv Panchal</div>
+    <div class="box">I am  Dhruv Panchal</div>
+    <br>
+    <div class="cont">BOX-1</div>
+    <div class="cont">BOX-2</div>
+    <div class="cont">BOX-3</div>
+
+    <div id="first">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam molestias, ipsa non perferendis fuga exercitationem deleniti temporibus sed cumque, aperiam fugit optio iusto, voluptate ipsum repellat hic quae! At?</p>
+    </div>
+    <p>Lorem ipsum dolor sit.</p>
+</body>
+</body>
+</html>

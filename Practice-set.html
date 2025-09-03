@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Practice.css">
     <style>
-        #heading{
-            color: red;
+        *{
+            padding: 0;
+            margin: 0;
         }
-        #first{
-            color: blue;
+        #bar{
+            background-color: blue;
+            color: rgba(103,18,18,0.7);
         }
-        #second{
-            color: yellow;
+        main{
+            background-color:blanchedalmond;
+            height: 500px;
         }
-        #third{
-            color: purple;
-        }   
-        #one,#two{
-            color: orange;
+        #product1{
+            background-image: url(https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/productimage/2021/6/9/10e26992-b48c-44df-a3ec-434f6e20fa5b1623234195192-1.jpg);
+            height: 200px;
+            width: 400px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        
         }
-
+        #product2{
+            height: 200px;
+            width: 400px;
+            background: green url(https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/29909664/2024/6/7/4136688e-799b-4ab7-9a4f-2df7966209d31717741833907ColorPlusMenOpaqueCasualShirt1.jpg) no-repeat  center ;
+        }
     </style>
 </head>
 <body>
-    1.<h1 style="color: red;">Hello</h1>
-    <hr>
-    2.  <div id="heading">1</div>
-        <div id="heading">2</div>
-        <div id="heading">3</div>
-    <hr>
-    <div id="first">div</div>
-    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, incidunt!</p>
-    <h2 id="third">heading 2</h2>
-    <hr>
+    <header>
+        <div id="bar">hello how are you</div>
+    </header>
+    <main>
+        <div id="product1">Product 1</div>
+        <div id="product2">Product 2</div>
+    </main>
+    <footer>
 
-    <div id="one">one</div>
-    <div id="two">two</div>
+    </footer>
+    
 </body>
 </html>

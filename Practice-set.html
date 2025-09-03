@@ -4,46 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         *{
             padding: 0;
             margin: 0;
+            font-family: 'Times New Roman', Times, serif;
         }
-        #bar{
-            background-color: blue;
-            color: rgba(103,18,18,0.7);
-        }
-        main{
-            background-color:blanchedalmond;
-            height: 500px;
-        }
-        #product1{
-            background-image: url(https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/productimage/2021/6/9/10e26992-b48c-44df-a3ec-434f6e20fa5b1623234195192-1.jpg);
-            height: 200px;
-            width: 400px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+        #text h1{
+            background-color: powderblue;
+            text-align: center;
+            text-transform: capitalize;
         
         }
-        #product2{
-            height: 200px;
-            width: 400px;
-            background: green url(https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/29909664/2024/6/7/4136688e-799b-4ab7-9a4f-2df7966209d31717741833907ColorPlusMenOpaqueCasualShirt1.jpg) no-repeat  center ;
+        #inner{
+            font-size: 10px;
+        }
+        #outer{
+            font-size: 25px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div id="bar">hello how are you</div>
-    </header>
-    <main>
-        <div id="product1">Product 1</div>
-        <div id="product2">Product 2</div>
-    </main>
-    <footer>
+    <div id="text">
+        <h1>hello</h1>
+    </div>
+    <hr>
+    <div id="outer">
+        Outer
+        <div id="inner">
+            inner
+        </div>
+    </div>
+    <hr>
 
-    </footer>
-    
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-github"></i>
 </body>
 </html>
